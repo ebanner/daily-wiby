@@ -1,6 +1,6 @@
 # daily-wiby
 
-Caches a daily site from [wiby.me](https://wiby.me)
+Fetch today's daily random [wiby.me](https://wiby.me) site
 
 ## Description
 
