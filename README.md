@@ -2,6 +2,12 @@
 
 Caches a daily site from [wiby.me](https://wiby.me)
 
+## Description
+
+[wiby.me](https://wiby.me) is a search engine for old school web 1.0 websites. They have a "surpise me" button which will take you to a random site.
+
+I wanted to have a "daily" wiby website. That's what this does.
+
 ### Create lambda function
 
 ![image](https://github.com/ebanner/daily-wiby/assets/2068912/85686d83-0119-4900-a1d3-7f26eea25fad)
