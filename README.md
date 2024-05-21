@@ -15,6 +15,10 @@ I wanted to have a "daily" wiby website. And that's what this does.
 - S3 cache
 - IAM role + policy
 
+## Setting up
+
+Here's some instructions for how to deploy this thing
+
 ### Create lambda function
 
 ![image](https://github.com/ebanner/daily-wiby/assets/2068912/85686d83-0119-4900-a1d3-7f26eea25fad)
