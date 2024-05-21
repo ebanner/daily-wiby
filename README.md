@@ -8,6 +8,13 @@ Fetch today's daily random [wiby.me](https://wiby.me) site
 
 I wanted to have a "daily" wiby website. And that's what this does.
 
+## Architecture
+
+- Lambda
+- Lambda Layer (requests + boto3)
+- S3 cache
+- IAM role + policy
+
 ### Create lambda function
 
 ![image](https://github.com/ebanner/daily-wiby/assets/2068912/85686d83-0119-4900-a1d3-7f26eea25fad)
