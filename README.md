@@ -6,7 +6,7 @@ Caches a daily site from [wiby.me](https://wiby.me)
 
 [wiby.me](https://wiby.me) is a search engine for old school web 1.0 websites. They have a "surpise me" button which will take you to a random site.
 
-I wanted to have a "daily" wiby website. That's what this does.
+I wanted to have a "daily" wiby website. And that's what this does.
 
 ### Create lambda function
 
