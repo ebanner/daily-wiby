@@ -22,6 +22,12 @@ Upload as zip
 
 ### Add read and write permissions to the bucket
 
+<img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/ed837e9f-08e2-4442-907f-e15dff27baea">
+
+<img width="1252" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/0d1346a6-1617-4340-8603-ffc467db4b61">
+
+### Specify bucket
+
 <img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/636bd3b4-0583-4c81-af91-9cd2bf222f6c">
 
 ### Create a role and add the policy
