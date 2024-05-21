@@ -9,7 +9,16 @@ Caches a daily site from [wiby.me](https://wiby.me)
 ### Zip code
 
 ```
-make zip
+$ make zip
+rm -rf .venv
+rm -rf python python.zip
+rm -rf lambda.zip
+zip -r lambda.zip *
+  adding: Makefile (deflated 43%)
+  adding: README.md (deflated 35%)
+  adding: lambda_function.py (deflated 51%)
+  adding: requirements.txt (stored 0%)
+  adding: s3_daily_cache.py (deflated 62%)
 ```
 
 Upload as zip
