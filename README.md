@@ -35,7 +35,7 @@ Upload as zip
 
 <img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/b87d05fd-83ca-4569-b8e0-245d75cc3257">
 
-### Add read and write permissions to the bucket
+### Add `GetObject` and `PutObject` permissions to the role
 
 <img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/ed837e9f-08e2-4442-907f-e15dff27baea">
 
