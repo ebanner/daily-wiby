@@ -12,8 +12,8 @@ I wanted to have a "daily" wiby website. And that's what this does.
 
 - Lambda
 - Lambda Layer (requests + boto3)
-- S3 cache
-- IAM role + policy
+- S3 (cache)
+- IAM role + policy (for accessing S3 from Lambda)
 
 ## Setting up
 
