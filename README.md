@@ -50,7 +50,7 @@ zip -r lambda.zip *
 
 <img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/24935bc8-9116-4175-a1a8-7ee999ef3557">
 
-### Add `GetObject` and `PutObject` permissions to the policy
+### Add `GetObject` and `PutObject` permissions
 
 <img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/ed837e9f-08e2-4442-907f-e15dff27baea">
 
