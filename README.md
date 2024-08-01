@@ -19,29 +19,6 @@ I wanted to have a "daily" random wiby website. And that's what this does.
 
 Here's some instructions for how to deploy this thing
 
-### Create lambda function
-
-![image](https://github.com/ebanner/daily-wiby/assets/2068912/85686d83-0119-4900-a1d3-7f26eea25fad)
-
-### Zip code
-
-```
-$ make zip
-rm -rf .venv
-rm -rf python python.zip
-rm -rf lambda.zip
-zip -r lambda.zip *
-  adding: Makefile (deflated 43%)
-  adding: README.md (deflated 35%)
-  adding: lambda_function.py (deflated 51%)
-  adding: requirements.txt (stored 0%)
-  adding: s3_daily_cache.py (deflated 62%)
-```
-
-### Upload as zip
-
-<img width="1092" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/67b48c71-c548-4486-80bd-4e130f6eb39d">
-
 ### Create S3 bucket
 
 <img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/b87d05fd-83ca-4569-b8e0-245d75cc3257">
@@ -65,6 +42,10 @@ You need to create a new IAM policy for each lambda with S3 permissions and acce
 ### Create a role and add the policy
 
 <img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/b978f071-b9e2-4e89-80c6-04f73e6e6069">
+
+### Create the lambda function with the role
+
+<img width="1445" alt="image" src="https://github.com/user-attachments/assets/54eaa295-4bfd-4bbf-9d1f-ee67d8e7d765">
 
 ## Resources
 
