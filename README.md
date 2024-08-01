@@ -48,6 +48,8 @@ zip -r lambda.zip *
 
 ### Create a IAM Policy
 
+You need to create a new IAM policy for each lambda with S3 permissions and access to a specific bucket.
+
 <img width="1296" alt="image" src="https://github.com/ebanner/daily-wiby/assets/2068912/24935bc8-9116-4175-a1a8-7ee999ef3557">
 
 ### Add `GetObject` and `PutObject` permissions
